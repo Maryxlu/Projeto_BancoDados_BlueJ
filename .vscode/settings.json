@@ -1,0 +1,12 @@
+{
+    "java.project.sourcePaths": [
+        "src"
+    ],
+    "java.project.referencedLibraries": [
+        "src/lib/ormlite-core-6.1.jar",
+        "src/lib/ormlite-jdbc-6.1.jar",
+        "src/lib/slf4j-api-2.0.13.jar",
+        "src/lib/slf4j-simple-2.0.13.jar",
+        "src/lib/sqlite-jdbc-3.46.0.0.jar"
+    ]
+}
