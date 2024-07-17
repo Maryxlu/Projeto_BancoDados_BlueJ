@@ -1,4 +1,4 @@
-public class teste {
+public class Criar {
     
     public static void main(String[] args) {
         
@@ -17,13 +17,5 @@ public class teste {
 
         lava.create(lava1);
         lava.create(lava2);
-
-        lava1.setstoreName("Lavajato Mequetrefe");
-        lava2.setstoreName("lavajato Mariupol");
-
-        lava.update(lava1);
-        lava.update(lava2);
     }
-}
-
 }

@@ -3,10 +3,22 @@
         "src"
     ],
     "java.project.referencedLibraries": [
-        "src/lib/ormlite-core-6.1.jar",
-        "src/lib/ormlite-jdbc-6.1.jar",
-        "src/lib/slf4j-api-2.0.13.jar",
-        "src/lib/slf4j-simple-2.0.13.jar",
-        "src/lib/sqlite-jdbc-3.46.0.0.jar"
+        "lib/ormlite-core-6.1.jar",
+        "lib/ormlite-jdbc-6.1.jar",
+        "lib/slf4j-api-2.0.13.jar",
+        "lib/slf4j-simple-2.0.13.jar",
+        "lib/sqlite-jdbc-3.46.0.0.jar"
+    ],
+    "java.completion.favoriteStaticMembers": [
+
+        "org.junit.Assert.*",
+        "org.junit.Assume.*",
+        "org.junit.jupiter.api.Assertions.*",
+        "org.junit.jupiter.api.Assumptions.*",
+        "org.junit.jupiter.api.DynamicContainer.*",
+        "org.junit.jupiter.api.DynamicTest.*",
+        "org.mockito.Mockito.*",
+        "org.mockito.ArgumentMatchers.*",
+        "org.mockito.Answers.*"
     ]
 }

@@ -7,7 +7,6 @@ import java.util.ArrayList;
 
 public class LavaJatoRepository
 {
-    private static Database database;
     private static Dao<LavaJato, Integer> dao;
     private List<LavaJato> loadedLavaJatos;
     private LavaJato loadedLavaJato; 
@@ -18,7 +17,6 @@ public class LavaJatoRepository
     }
     
     public static void setDatabase(Database database) {
-        LavaJatoRepository.database = database;
         try {
             dao = DaoManager.createDao(database.getConnection(), LavaJato.class);
             TableUtils.createTableIfNotExists(database.getConnection(), LavaJato.class);
