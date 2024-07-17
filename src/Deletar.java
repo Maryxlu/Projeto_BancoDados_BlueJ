@@ -2,7 +2,7 @@ public class Deletar {
     
     public static void main(String[] args) {
         
-        Database db = new Database("banquinho");
+        Database db = new Database("banquinho.db");
         LavaJatoRepository lava = new LavaJatoRepository(db);
 
         LavaJato lava1 = lava.loadFromId(0);

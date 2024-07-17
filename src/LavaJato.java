@@ -1,7 +1,7 @@
 import com.j256.ormlite.table.DatabaseTable;
 import com.j256.ormlite.field.DatabaseField;
 
-@DatabaseTable(tableName = "student")
+@DatabaseTable(tableName = "Lava Jatos")
 public class LavaJato
 {   
     @DatabaseField(generatedId = true)
@@ -11,7 +11,7 @@ public class LavaJato
     private String storeName;
     
     @DatabaseField
-    public int registration;
+    public int carros_lavados;
 
 //Start GetterSetterExtension Source Code
 
@@ -37,12 +37,12 @@ public class LavaJato
 
     /**GET Method Propertie registration*/
     public int getRegistration(){
-        return this.registration;
+        return this.carros_lavados;
     }//end method getRegistration
 
     /**SET Method Propertie registration*/
     public void setRegistration(int registration){
-        this.registration = registration;
+        this.carros_lavados = registration;
     }//end method setRegistration
 
 //End GetterSetterExtension Source Code
