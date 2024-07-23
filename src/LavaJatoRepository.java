@@ -42,7 +42,6 @@ public class LavaJatoRepository
 
     public void update(LavaJato LavaJato) {
       try {
-        this.loadedLavaJato = LavaJato;
         dao.update(LavaJato);
       } catch (Exception e) {
         System.out.println(e);
@@ -51,7 +50,6 @@ public class LavaJatoRepository
 
     public void delete(LavaJato LavaJato) {
       try {
-        this.loadedLavaJato = LavaJato;
         dao.delete(LavaJato);
       } catch (Exception e) {
         System.out.println(e);
